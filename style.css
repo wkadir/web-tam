@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: url(KADİR.jpeg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background: rgba(22,112,214,0.4);
+}
+.navbar .logo{
+    
+    display:inline-block;
+    margin-left:50px;
+    margin-top:20px;
+}
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+
+.navbar ul{
+    float:right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: darkorange;
+    border-radius: 2px;
+}
+.container .center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+
+}
+.center h1{
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.center h2{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight:bold ;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+.center .buttons{
+    margin: 35px 280px;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    color: blue;
+    background-color: rgb(rgb(17, 0, 255), rgb(0, 4, 228), rgb(196, 196, 196));
+    border: solid 1px blue;
+    cursor: pointer;
+    outline: none;  
+    border-radius:25px ;
+}
+
+
